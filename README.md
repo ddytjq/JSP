@@ -16,7 +16,7 @@
 
 ```
 $ sh /apache-tomcat-8.5.37/bin/startup.sh
-$ cd /apache-tomcat-8.5.37/webapps/~.jsp
+$ ~/apache-tomcat-8.5.37/webapps/~.jsp
 ```
 
 * Docker - Oracle
