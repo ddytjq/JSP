@@ -34,7 +34,7 @@ $ lsof -PiTCP -sTCP:LISTEN
 
 ```
 ...
-***Java, Spring***
+*Java, Spring
 <properties>
 	<java-version>1.7</java-version>
 	<org.springframework-version>3.2.4.RELEASE</org springframework-version>
@@ -42,21 +42,21 @@ $ lsof -PiTCP -sTCP:LISTEN
         <org.slf4j-version>1.6.6</org.slf4j-version>
 </properties>
 
-***Mybatis***
+*Mybatis
 <dependency>
 	<groupId>org.mybatis</groupId>
 	<artifactId>mybatis</artifactId>
 	<version>3.2.2</version>
 </dependency>
 
-***Java Serlet***
+*Java Serlet
 <dependency>
     <groupId>javax.servlet</groupId>
     <artifactId>servlet-api</artifactId>
     <version>2.5</version>
 </dependency>
 
-***Log4j***
+*Log4j
 <dependency>
 	<groupId>log4j</groupId>
 	<artifactId>log4j</artifactId>
