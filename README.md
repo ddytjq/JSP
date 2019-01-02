@@ -1,14 +1,14 @@
 ## JSP 2.3
 
 #### Environment
-1. Install JDK 8 +
-2. Install Apache-tomcat-8.5.37
-3. Install Docker 18.06.1
-4. Install Oracle-12c 
+1. JDK 8 +
+2. Apache-tomcat-8.5.37
+3. Docker 18.06.1
+4. Oracle-12c
 
 #### Framework
 1. Spring 3.2.4.RELEASE
-2. Install Maven 3.3.9
+2. Maven 3.3.9
 
 #### Build
 
