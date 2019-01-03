@@ -14,8 +14,9 @@
 		int result = a - b;
 		return result;
 	}
-%>
 
+%>
+<%= request. %>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -29,6 +30,15 @@
 	덧셈 :<%= add(a, b) %>
 	<br>
 	뺄셈 :<%= sub(a, b) %>
-
+	<br>
+	<%=  %>
+	
+	<%= request.getRemoteAddr() %>
+	<%= request.getRemoteAddr() %>
+	<%= request.getRemoteAddr() %>
+	
+	<%= request.getRemoteAddr() %>
+	<%= request.getRemoteAddr() %>
+	<%= request.getRemoteAddr() %>
 </body>
 </html>
