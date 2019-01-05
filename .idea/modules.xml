@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/WEB-INF/WEB-INF.iml" filepath="$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/WEB-INF/WEB-INF.iml" />
-      <module fileurl="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/WEB-INF/jsp/jsp.iml" filepath="$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/WEB-INF/jsp/jsp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/apache-tomcat-8.5.37/work/Catalina/localhost/localhost.iml" filepath="$PROJECT_DIR$/apache-tomcat-8.5.37/work/Catalina/localhost/localhost.iml" />
-      <module fileurl="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/jsp/plugin/plugin.iml" filepath="$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/jsp/plugin/plugin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/docs/appdev/sample/sample.iml" filepath="$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/docs/appdev/sample/sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JSP.iml" filepath="$PROJECT_DIR$/JSP.iml" />
     </modules>
   </component>
 </project>
