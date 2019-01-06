@@ -38,3 +38,8 @@
 0:0:0:0:0:0:0:1 - - [05/Jan/2019:21:16:12 +0900] "GET /examples/web2.3/chap03.jsp HTTP/1.1" 200 150
 0:0:0:0:0:0:0:1 - - [05/Jan/2019:21:16:12 +0900] "GET /examples/web2.3/chap03.jsp HTTP/1.1" 200 150
 0:0:0:0:0:0:0:1 - - [05/Jan/2019:21:16:12 +0900] "GET /examples/web2.3/chap03.jsp HTTP/1.1" 200 150
+0:0:0:0:0:0:0:1 - - [05/Jan/2019:21:19:16 +0900] "GET /examples/web2.3/chap03.jsp HTTP/1.1" 200 150
+0:0:0:0:0:0:0:1 - - [05/Jan/2019:21:19:17 +0900] "GET /examples/web2.3/chap03.jsp HTTP/1.1" 200 149
+0:0:0:0:0:0:0:1 - - [05/Jan/2019:21:19:17 +0900] "GET /examples/web2.3/chap03.jsp HTTP/1.1" 200 150
+0:0:0:0:0:0:0:1 - - [05/Jan/2019:21:19:17 +0900] "GET /examples/web2.3/chap03.jsp HTTP/1.1" 200 150
+0:0:0:0:0:0:0:1 - - [05/Jan/2019:21:30:59 +0900] "GET /examples/web2.3/chap03.jsp HTTP/1.1" 200 150

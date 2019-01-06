@@ -1,0 +1,656 @@
+06-Jan-2019 14:14:39.986 정보 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+06-Jan-2019 14:14:39.986 정보 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+06-Jan-2019 14:14:39.989 정보 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@22a60a7a')
+06-Jan-2019 14:14:52.754 정보 [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log SessionListener: sessionDestroyed('9ACC581659F46580EDC2CD3A2EDD87EB')
+06-Jan-2019 14:14:52.764 정보 [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@9c47cc')
+06-Jan-2019 14:14:52.764 정보 [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log SessionListener: sessionCreated('8DD43F672811D486D3D0F36CEAB23A45')
+06-Jan-2019 14:19:00.247 정보 [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@19c934b8')
+06-Jan-2019 15:03:41.827 정보 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log SessionListener: sessionDestroyed('8DD43F672811D486D3D0F36CEAB23A45')
+06-Jan-2019 18:56:27.358 정보 [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log SessionListener: sessionCreated('0B689D289046214D7614BCB5D5C1628B')
+06-Jan-2019 19:15:55.024 심각 [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [22] in the jsp file: [/web2.3/test.jsp]
+Syntax error on token "<", invalid Expression
+19:         Enumeration param = request.getParameterNames();
+20: 
+21:         while(param.hasMoreElements()){
+22:             <%= param.nextElement()%>
+23:     }
+24:     %>
+25: 
+
+
+An error occurred at line: [22] in the jsp file: [/web2.3/test.jsp]
+Syntax error, insert ";" to complete BlockStatements
+19:         Enumeration param = request.getParameterNames();
+20: 
+21:         while(param.hasMoreElements()){
+22:             <%= param.nextElement()%>
+23:     }
+24:     %>
+25: 
+
+
+An error occurred at line: [140] in the generated java file: [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/work/Catalina/localhost/examples/org/apache/jsp/web2_3/test_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [157] in the generated java file: [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/work/Catalina/localhost/examples/org/apache/jsp/web2_3/test_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [158] in the generated java file: [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/work/Catalina/localhost/examples/org/apache/jsp/web2_3/test_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [22] in the jsp file: [/web2.3/test.jsp]
+Syntax error on token "<", invalid Expression
+19:         Enumeration param = request.getParameterNames();
+20: 
+21:         while(param.hasMoreElements()){
+22:             <%= param.nextElement()%>
+23:     }
+24:     %>
+25: 
+
+
+An error occurred at line: [22] in the jsp file: [/web2.3/test.jsp]
+Syntax error, insert ";" to complete BlockStatements
+19:         Enumeration param = request.getParameterNames();
+20: 
+21:         while(param.hasMoreElements()){
+22:             <%= param.nextElement()%>
+23:     }
+24:     %>
+25: 
+
+
+An error occurred at line: [140] in the generated java file: [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/work/Catalina/localhost/examples/org/apache/jsp/web2_3/test_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [157] in the generated java file: [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/work/Catalina/localhost/examples/org/apache/jsp/web2_3/test_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [158] in the generated java file: [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/work/Catalina/localhost/examples/org/apache/jsp/web2_3/test_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:495)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:350)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:595)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+06-Jan-2019 19:17:27.732 심각 [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [19] in the jsp file: [/web2.3/test.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+16:     <%= request.getParameter("phone")%>
+17: 
+18:     <%
+19:         Enumeration param = request.getParameterNames()
+20: 
+21:         while(param.hasMoreElements())
+22:             <%= param.nextElement()%>
+
+
+An error occurred at line: [22] in the jsp file: [/web2.3/test.jsp]
+Syntax error on token "<", invalid Expression
+19:         Enumeration param = request.getParameterNames()
+20: 
+21:         while(param.hasMoreElements())
+22:             <%= param.nextElement()%>
+23:     %>
+24: </body>
+25: </html>
+
+
+An error occurred at line: [22] in the jsp file: [/web2.3/test.jsp]
+Syntax error, insert ";" to complete Statement
+19:         Enumeration param = request.getParameterNames()
+20: 
+21:         while(param.hasMoreElements())
+22:             <%= param.nextElement()%>
+23:     %>
+24: </body>
+25: </html>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [19] in the jsp file: [/web2.3/test.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+16:     <%= request.getParameter("phone")%>
+17: 
+18:     <%
+19:         Enumeration param = request.getParameterNames()
+20: 
+21:         while(param.hasMoreElements())
+22:             <%= param.nextElement()%>
+
+
+An error occurred at line: [22] in the jsp file: [/web2.3/test.jsp]
+Syntax error on token "<", invalid Expression
+19:         Enumeration param = request.getParameterNames()
+20: 
+21:         while(param.hasMoreElements())
+22:             <%= param.nextElement()%>
+23:     %>
+24: </body>
+25: </html>
+
+
+An error occurred at line: [22] in the jsp file: [/web2.3/test.jsp]
+Syntax error, insert ";" to complete Statement
+19:         Enumeration param = request.getParameterNames()
+20: 
+21:         while(param.hasMoreElements())
+22:             <%= param.nextElement()%>
+23:     %>
+24: </body>
+25: </html>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:495)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:350)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:595)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+06-Jan-2019 19:17:32.865 심각 [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [19] in the jsp file: [/web2.3/test.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+16:     <%= request.getParameter("phone")%>
+17: 
+18:     <%
+19:         Enumeration param = request.getParameterNames()
+20: 
+21:         while(param.hasMoreElements())
+22:             <%= param.nextElement()%>
+
+
+An error occurred at line: [22] in the jsp file: [/web2.3/test.jsp]
+Syntax error on token "<", invalid Expression
+19:         Enumeration param = request.getParameterNames()
+20: 
+21:         while(param.hasMoreElements())
+22:             <%= param.nextElement()%>
+23:     %>
+24: </body>
+25: </html>
+
+
+An error occurred at line: [22] in the jsp file: [/web2.3/test.jsp]
+Syntax error, insert ";" to complete Statement
+19:         Enumeration param = request.getParameterNames()
+20: 
+21:         while(param.hasMoreElements())
+22:             <%= param.nextElement()%>
+23:     %>
+24: </body>
+25: </html>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [19] in the jsp file: [/web2.3/test.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+16:     <%= request.getParameter("phone")%>
+17: 
+18:     <%
+19:         Enumeration param = request.getParameterNames()
+20: 
+21:         while(param.hasMoreElements())
+22:             <%= param.nextElement()%>
+
+
+An error occurred at line: [22] in the jsp file: [/web2.3/test.jsp]
+Syntax error on token "<", invalid Expression
+19:         Enumeration param = request.getParameterNames()
+20: 
+21:         while(param.hasMoreElements())
+22:             <%= param.nextElement()%>
+23:     %>
+24: </body>
+25: </html>
+
+
+An error occurred at line: [22] in the jsp file: [/web2.3/test.jsp]
+Syntax error, insert ";" to complete Statement
+19:         Enumeration param = request.getParameterNames()
+20: 
+21:         while(param.hasMoreElements())
+22:             <%= param.nextElement()%>
+23:     %>
+24: </body>
+25: </html>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:495)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:350)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:595)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+06-Jan-2019 19:17:45.049 심각 [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [22] in the jsp file: [/web2.3/test.jsp]
+Syntax error on token "<", invalid Expression
+19:         Enumeration param = request.getParameterNames();
+20: 
+21:         while(param.hasMoreElements())
+22:             <%= param.nextElement()%>
+23:     %>
+24: </body>
+25: </html>
+
+
+An error occurred at line: [22] in the jsp file: [/web2.3/test.jsp]
+Syntax error, insert ";" to complete Statement
+19:         Enumeration param = request.getParameterNames();
+20: 
+21:         while(param.hasMoreElements())
+22:             <%= param.nextElement()%>
+23:     %>
+24: </body>
+25: </html>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [22] in the jsp file: [/web2.3/test.jsp]
+Syntax error on token "<", invalid Expression
+19:         Enumeration param = request.getParameterNames();
+20: 
+21:         while(param.hasMoreElements())
+22:             <%= param.nextElement()%>
+23:     %>
+24: </body>
+25: </html>
+
+
+An error occurred at line: [22] in the jsp file: [/web2.3/test.jsp]
+Syntax error, insert ";" to complete Statement
+19:         Enumeration param = request.getParameterNames();
+20: 
+21:         while(param.hasMoreElements())
+22:             <%= param.nextElement()%>
+23:     %>
+24: </body>
+25: </html>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:495)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:350)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:595)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+06-Jan-2019 19:22:56.967 심각 [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [23] in the jsp file: [/web2.3/test.jsp]
+Syntax error on token(s), misplaced construct(s)
+20: 
+21:         while(param.hasMoreElements()) {
+22:            String name =  (String)param.nextElement();
+23:            <%= name%>
+24:         }
+25:     %>
+26: 
+
+
+An error occurred at line: [23] in the jsp file: [/web2.3/test.jsp]
+Syntax error on tokens, delete these tokens
+20: 
+21:         while(param.hasMoreElements()) {
+22:            String name =  (String)param.nextElement();
+23:            <%= name%>
+24:         }
+25:     %>
+26: 
+
+
+An error occurred at line: [23] in the jsp file: [/web2.3/test.jsp]
+The method write(String) is undefined for the type test_jsp
+20: 
+21:         while(param.hasMoreElements()) {
+22:            String name =  (String)param.nextElement();
+23:            <%= name%>
+24:         }
+25:     %>
+26: 
+
+
+An error occurred at line: [144] in the generated java file: [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/work/Catalina/localhost/examples/org/apache/jsp/web2_3/test_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [161] in the generated java file: [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/work/Catalina/localhost/examples/org/apache/jsp/web2_3/test_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [162] in the generated java file: [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/work/Catalina/localhost/examples/org/apache/jsp/web2_3/test_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [23] in the jsp file: [/web2.3/test.jsp]
+Syntax error on token(s), misplaced construct(s)
+20: 
+21:         while(param.hasMoreElements()) {
+22:            String name =  (String)param.nextElement();
+23:            <%= name%>
+24:         }
+25:     %>
+26: 
+
+
+An error occurred at line: [23] in the jsp file: [/web2.3/test.jsp]
+Syntax error on tokens, delete these tokens
+20: 
+21:         while(param.hasMoreElements()) {
+22:            String name =  (String)param.nextElement();
+23:            <%= name%>
+24:         }
+25:     %>
+26: 
+
+
+An error occurred at line: [23] in the jsp file: [/web2.3/test.jsp]
+The method write(String) is undefined for the type test_jsp
+20: 
+21:         while(param.hasMoreElements()) {
+22:            String name =  (String)param.nextElement();
+23:            <%= name%>
+24:         }
+25:     %>
+26: 
+
+
+An error occurred at line: [144] in the generated java file: [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/work/Catalina/localhost/examples/org/apache/jsp/web2_3/test_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [161] in the generated java file: [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/work/Catalina/localhost/examples/org/apache/jsp/web2_3/test_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [162] in the generated java file: [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/work/Catalina/localhost/examples/org/apache/jsp/web2_3/test_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:495)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:350)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:595)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+06-Jan-2019 19:33:10.642 심각 [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [24] in the jsp file: [/web2.3/test.jsp]
+Syntax error on token(s), misplaced construct(s)
+21: 
+22:         while(param.hasMoreElements()) {
+23:             String name = (String) param.nextElement();
+24:             <%= name
+25:             %>
+26:     <%
+27:         }
+
+
+An error occurred at line: [24] in the jsp file: [/web2.3/test.jsp]
+Syntax error on tokens, delete these tokens
+21: 
+22:         while(param.hasMoreElements()) {
+23:             String name = (String) param.nextElement();
+24:             <%= name
+25:             %>
+26:     <%
+27:         }
+
+
+An error occurred at line: [25] in the jsp file: [/web2.3/test.jsp]
+The method write(String) is undefined for the type test_jsp
+22:         while(param.hasMoreElements()) {
+23:             String name = (String) param.nextElement();
+24:             <%= name
+25:             %>
+26:     <%
+27:         }
+28:     %>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [24] in the jsp file: [/web2.3/test.jsp]
+Syntax error on token(s), misplaced construct(s)
+21: 
+22:         while(param.hasMoreElements()) {
+23:             String name = (String) param.nextElement();
+24:             <%= name
+25:             %>
+26:     <%
+27:         }
+
+
+An error occurred at line: [24] in the jsp file: [/web2.3/test.jsp]
+Syntax error on tokens, delete these tokens
+21: 
+22:         while(param.hasMoreElements()) {
+23:             String name = (String) param.nextElement();
+24:             <%= name
+25:             %>
+26:     <%
+27:         }
+
+
+An error occurred at line: [25] in the jsp file: [/web2.3/test.jsp]
+The method write(String) is undefined for the type test_jsp
+22:         while(param.hasMoreElements()) {
+23:             String name = (String) param.nextElement();
+24:             <%= name
+25:             %>
+26:     <%
+27:         }
+28:     %>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:495)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:350)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:595)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+06-Jan-2019 20:05:52.831 정보 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log SessionListener: sessionDestroyed('0B689D289046214D7614BCB5D5C1628B')
