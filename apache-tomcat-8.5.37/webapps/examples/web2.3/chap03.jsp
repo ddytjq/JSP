@@ -24,8 +24,15 @@
     address : <input type="text" name="pet" size="20"><br>
     <input type="submit" value="전송">
 </form>
+<ul></ul>
+<%
+    HttpServletRequest hsr = (HttpServletRequest)pageContext.getRequest();
+%>
 
-
+<%= application.getServerInfo()%><br>
+<%= application.getMajorVersion()%><br>
+<%= application.getMinorVersion()%><br>
+<% application.log("로그메세지"); %>
 
 </body>
 </html>
