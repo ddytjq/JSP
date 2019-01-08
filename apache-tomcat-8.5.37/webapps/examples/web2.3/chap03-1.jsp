@@ -8,24 +8,24 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>chap03-1</title>
 </head>
 <body>
-    <%= request.getParameter("name")%>
-    <%= request.getParameter("name")%>
-    <%= request.getParameter("name")%>
-    <br>
+<%= request.getParameter("name")%>
+<%= request.getParameter("name")%>
+<%= request.getParameter("name")%>
+<br>
 
-    <%
-        Enumeration param = request.getParameterNames();
+<%
+    Enumeration param = request.getParameterNames();
 
-        while(param.hasMoreElements()) {
-            String name = (String) param.nextElement();
-    %>
-        <%= name %>
-    <%
-        }
-    %>
+    while(param.hasMoreElements()) {
+        String name = (String) param.nextElement();
+%>
+<%= name %>
+<%
+    }
+%>
 <form action="chap03.jsp" value="return">
     <input type="submit" value="return">
 </form>

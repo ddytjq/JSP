@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>chap03 연습예제</title>
+    <title>chap03</title>
 </head>
 <body>
 <%= request.getCookies()%>
@@ -18,7 +18,7 @@
 <%= request.getServerPort()%>
 <br>
 
-<form action="test.jsp" method="post">
+<form action="chap03-1.jsp" method="post">
     name : <input type="text" name="name" size="20"><br>
     phone : <input type="text" name="address" size="20"><br>
     address : <input type="text" name="pet" size="20"><br>

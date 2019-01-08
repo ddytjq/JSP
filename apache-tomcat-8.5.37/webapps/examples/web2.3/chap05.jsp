@@ -1,5 +1,8 @@
 <%@ page import="java.io.*" %>
-<%@ page import="java.util.StringTokenizer" %><%--
+<%@ page import="java.util.StringTokenizer" %>
+<%@ page errorPage="error.jsp" %>
+
+<%--
   Created by IntelliJ IDEA.
   User: kimyosub
   Date: 2019-01-08
@@ -12,6 +15,7 @@
     <title>chap05</title>
 </head>
 <body>
+
 <%
     char[] buff = new char[128];
     int len=-1;
@@ -25,6 +29,34 @@
         out.println(ex.getMessage());
     }
 %>
+
+<%
+    String name = request.getParameter("name");
+    String value = request.getParameter("value");
+
+    if(name!=null && value != null) {
+        application.setAttribute(name, value);
+    }
+%>
+
+<%
+    if(name!=null && value != null){
+%>
+
+    <%= name%> = <%= value %>
+<%
+
+}
+%>
+
+<%
+    try{
+        out.println("오류가 아닙니다.");
+    }
+    catch(Exception ex)
+    // error page setting
+%>
+
 
 </body>
 </html>
