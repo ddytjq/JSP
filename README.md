@@ -4,13 +4,13 @@
 1. JDK 8 +
 2. Apache-tomcat-8.5.37
 3. Docker 18.06.1
-4. Oracle-12c
+4. JDBC - Oracle-12c
 
 #### Framework
-1. Spring 3.2.4.RELEASE - MVC
+1. Spring 3.2.4.RELEASE
 2. Maven 3.3.9
 
-#### Build
+#### Command
 
 * Apache-tomcat
 
@@ -28,4 +28,4 @@ $ docker exec -it oracle12c sqlplus
 $ lsof -PiTCP -sTCP:LISTEN
 ```
 
-* localhost:8080/chap/~
+* localhost:8080/chap~/~
