@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2d7470f-c75b-420f-91ed-788807e34b39" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-8.5.37/logs/catalina.2019-01-10.log" beforeDir="false" afterPath="$PROJECT_DIR$/apache-tomcat-8.5.37/logs/catalina.2019-01-10.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apache-tomcat-8.5.37/logs/catalina.out" beforeDir="false" afterPath="$PROJECT_DIR$/apache-tomcat-8.5.37/logs/catalina.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-tomcat-8.5.37/logs/localhost.2019-01-08.log" beforeDir="false" afterPath="$PROJECT_DIR$/apache-tomcat-8.5.37/logs/localhost.2019-01-08.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-8.5.37/logs/localhost.2019-01-10.log" beforeDir="false" afterPath="$PROJECT_DIR$/apache-tomcat-8.5.37/logs/localhost.2019-01-10.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-8.5.37/logs/localhost_access_log.2019-01-10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/apache-tomcat-8.5.37/logs/localhost_access_log.2019-01-10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-8.5.37/work/Catalina/localhost/examples/org/apache/jsp/web2_3/chap09_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-tomcat-8.5.37/work/Catalina/localhost/examples/org/apache/jsp/web2_3/chap09_jsp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,16 +22,52 @@
         <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap08-1.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap09.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap09-1.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap09-2.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap09-3.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap09.jsp">
+        <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/chap10/sessionInfo.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -105,6 +145,10 @@
         <option value="$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap08.jsp" />
         <option value="$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap08-1.jsp" />
         <option value="$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap09.jsp" />
+        <option value="$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap09-1.jsp" />
+        <option value="$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap09-2.jsp" />
+        <option value="$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap09-3.jsp" />
+        <option value="$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/chap10/sessionInfo.jsp" />
       </list>
     </option>
   </component>
@@ -127,44 +171,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSP" type="462c0819:PsiDirectoryNode" />
-              <item name="apache-tomcat-8.5.37" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSP" type="462c0819:PsiDirectoryNode" />
-              <item name="apache-tomcat-8.5.37" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSP" type="462c0819:PsiDirectoryNode" />
-              <item name="apache-tomcat-8.5.37" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSP" type="462c0819:PsiDirectoryNode" />
-              <item name="apache-tomcat-8.5.37" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="web2.3" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -202,12 +208,42 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSP" type="462c0819:PsiDirectoryNode" />
+              <item name="apache-tomcat-8.5.37" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSP" type="462c0819:PsiDirectoryNode" />
+              <item name="apache-tomcat-8.5.37" type="462c0819:PsiDirectoryNode" />
+              <item name="webapps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSP" type="462c0819:PsiDirectoryNode" />
+              <item name="apache-tomcat-8.5.37" type="462c0819:PsiDirectoryNode" />
+              <item name="webapps" type="462c0819:PsiDirectoryNode" />
+              <item name="chap10" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547096543651" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547104629470" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -304,12 +340,13 @@
       <updated>1546689369593</updated>
       <workItem from="1546689378806" duration="8999000" />
       <workItem from="1546923649701" duration="13196000" />
-      <workItem from="1546950304720" duration="3159000" />
+      <workItem from="1546950304720" duration="5226000" />
+      <workItem from="1547104703307" duration="71000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25354000" />
+    <option name="totallyTimeSpent" value="27492000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -324,7 +361,7 @@
     <frame x="0" y="23" width="959" height="1015" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2519084" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25736097" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -515,17 +552,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-end-line="4" />
-          <folding>
-            <element signature="e#61#62#0" expanded="true" />
-            <element signature="e#94#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/test.java" />
     <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap07-1.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="43">
@@ -543,13 +570,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3-java/src/member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3-java/src/member.java" />
     <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/WEB-INF/classes/async/Async0.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -568,10 +589,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap07-2.jsp">
+    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap08-1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap09.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap09-1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap09-2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap08.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -589,24 +638,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap08.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap08-1.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap09.jsp">
+    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap07-2.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap09-3.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/chap10/sessionInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
