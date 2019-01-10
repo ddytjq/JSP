@@ -5610,3 +5610,4 @@ Stacktrace:] with root cause
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
 
+08-Jan-2019 22:15:43.519 정보 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log SessionListener: sessionDestroyed('8F9D2F4E1FE1C65F02F6220240D8B789')
