@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="JSP:ear exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c2d7470f-c75b-420f-91ed-788807e34b39" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-8.5.37/logs/catalina.2019-01-10.log" beforeDir="false" afterPath="$PROJECT_DIR$/apache-tomcat-8.5.37/logs/catalina.2019-01-10.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-8.5.37/logs/catalina.out" beforeDir="false" afterPath="$PROJECT_DIR$/apache-tomcat-8.5.37/logs/catalina.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-8.5.37/logs/localhost.2019-01-10.log" beforeDir="false" afterPath="$PROJECT_DIR$/apache-tomcat-8.5.37/logs/localhost.2019-01-10.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +24,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/chap18/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="221">
               <caret line="13" column="42" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="42" />
             </state>
           </provider>
@@ -30,18 +38,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/chap18/WEB-INF/src/mvc/controller/ControllerUsingFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+            <state relative-caret-position="323">
+              <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="527">
-                <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+              <first_editor relative-caret-position="136">
+                <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
               </first_editor>
               <second_editor />
             </state>
@@ -49,27 +57,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/chap18/WEB-INF/src/mvc/command/CommandHandler.java">
+        <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/chap15/confirmDeletion.jsp">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/chap18/WEB-INF/src/mvc/hello/HelloHandler.java">
+        <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/chap10_2/sessionInfo.jsp">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/chap18/WEB-INF/src/mvc/simple/SimpleController.java">
+        <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/chap10_2/viewCookies.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/chap10_2/viewMemberInfo.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/chap18/simpleView.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -127,9 +135,17 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="956" />
+    <option name="x" value="31" />
+    <option name="y" value="28" />
+    <option name="width" value="1788" />
     <option name="height" value="1015" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -140,6 +156,50 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSP" type="462c0819:PsiDirectoryNode" />
+              <item name="apache-tomcat-8.5.37" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSP" type="462c0819:PsiDirectoryNode" />
+              <item name="apache-tomcat-8.5.37" type="462c0819:PsiDirectoryNode" />
+              <item name="webapps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSP" type="462c0819:PsiDirectoryNode" />
+              <item name="apache-tomcat-8.5.37" type="462c0819:PsiDirectoryNode" />
+              <item name="webapps" type="462c0819:PsiDirectoryNode" />
+              <item name="chap10_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSP" type="462c0819:PsiDirectoryNode" />
+              <item name="apache-tomcat-8.5.37" type="462c0819:PsiDirectoryNode" />
+              <item name="webapps" type="462c0819:PsiDirectoryNode" />
+              <item name="chap15" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSP" type="462c0819:PsiDirectoryNode" />
+              <item name="apache-tomcat-8.5.37" type="462c0819:PsiDirectoryNode" />
+              <item name="webapps" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -177,142 +237,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSP" type="462c0819:PsiDirectoryNode" />
-              <item name="apache-tomcat-8.5.37" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSP" type="462c0819:PsiDirectoryNode" />
-              <item name="apache-tomcat-8.5.37" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSP" type="462c0819:PsiDirectoryNode" />
-              <item name="apache-tomcat-8.5.37" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-              <item name="chap10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSP" type="462c0819:PsiDirectoryNode" />
-              <item name="apache-tomcat-8.5.37" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-              <item name="chap10" type="462c0819:PsiDirectoryNode" />
-              <item name="member" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSP" type="462c0819:PsiDirectoryNode" />
-              <item name="apache-tomcat-8.5.37" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-              <item name="chap10_2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSP" type="462c0819:PsiDirectoryNode" />
-              <item name="apache-tomcat-8.5.37" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-              <item name="chap18" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSP" type="462c0819:PsiDirectoryNode" />
-              <item name="apache-tomcat-8.5.37" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-              <item name="chap18" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSP" type="462c0819:PsiDirectoryNode" />
-              <item name="apache-tomcat-8.5.37" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-              <item name="chap18" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSP" type="462c0819:PsiDirectoryNode" />
-              <item name="apache-tomcat-8.5.37" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-              <item name="chap18" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSP" type="462c0819:PsiDirectoryNode" />
-              <item name="apache-tomcat-8.5.37" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-              <item name="chap18" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSP" type="462c0819:PsiDirectoryNode" />
-              <item name="apache-tomcat-8.5.37" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-              <item name="chap18" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSP" type="462c0819:PsiDirectoryNode" />
-              <item name="apache-tomcat-8.5.37" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-              <item name="chap18" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="hello" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSP" type="462c0819:PsiDirectoryNode" />
-              <item name="apache-tomcat-8.5.37" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-              <item name="chap18" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="simple" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JSP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSP" type="462c0819:PsiDirectoryNode" />
-              <item name="apache-tomcat-8.5.37" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547125667343" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547186986964" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -410,12 +340,13 @@
       <workItem from="1546689378806" duration="8999000" />
       <workItem from="1546923649701" duration="13196000" />
       <workItem from="1546950304720" duration="5226000" />
-      <workItem from="1547104703307" duration="7292000" />
+      <workItem from="1547104703307" duration="9800000" />
+      <workItem from="1547202866450" duration="1708000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34713000" />
+    <option name="totallyTimeSpent" value="38929000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -427,10 +358,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1623" height="1015" extended-state="0" />
-    <editor active="true" />
+    <frame x="31" y="28" width="1788" height="1015" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1492726" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13802978" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -439,9 +369,10 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="JavaEE:App" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -526,29 +457,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap05-1.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap05.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/temp/test.java" />
-    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap08-2.java" />
-    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap07.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap07-5.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -767,6 +675,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/chap18/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/chap18/WEB-INF/src/mvc/controller/ControllerUsingURI.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/chap18/WEB-INF/src/mvc/command/CommandHandler.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/chap18/WEB-INF/src/mvc/hello/HelloHandler.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -777,36 +698,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/chap18/WEB-INF/src/mvc/command/CommandHandler.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/chap18/simpleView.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/chap18/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/chap18/WEB-INF/src/mvc/controller/ControllerUsingURI.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/chap18/WEB-INF/src/mvc/controller/ControllerUsingFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+        <state relative-caret-position="323">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/chap15/deleteMessage.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="527">
-            <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <first_editor relative-caret-position="136">
+            <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/chap15/confirmDeletion.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/chap10_2/sessionInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/chap10_2/viewCookies.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/chap10_2/viewMemberInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>

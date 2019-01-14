@@ -2126,3 +2126,5 @@ Stacktrace:] with root cause
 
 10-Jan-2019 20:13:01.302 정보 [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log SessionListener: sessionCreated('EDB1F486BD0EB6B3411D447FEFC5906A')
 10-Jan-2019 20:43:56.679 정보 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log SessionListener: sessionDestroyed('EDB1F486BD0EB6B3411D447FEFC5906A')
+10-Jan-2019 22:12:58.618 정보 [localhost-startStop-4] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Jan-2019 22:12:58.618 정보 [localhost-startStop-4] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
