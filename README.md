@@ -1,22 +1,10 @@
-## JSP 2.3
+# JSP 2.3 연습
 
-#### Environment
-1. JDK 8 +
+## 1. 환경설정
+1. Language : JDK 8, JSP 2.3
 2. Apache-tomcat-8.5.37
 3. Docker 18.06.1
-4. JDBC - Oracle-12c
+4. Mysql 5.7
 
-#### Framework
-1. Spring 3.2.4.RELEASE
-2. Maven 3.3.9
-
-#### Command
-
-* Apache-tomcat
-
-```
-$ sh /apache-tomcat-8.5.37/bin/startup.sh
-$ cd /apache-tomcat-8.5.37/webapps/chap
-$ vi ~.jsp
-```
+## 2. 참고사항
 * localhost:8080/chap~/~
