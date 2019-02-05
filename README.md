@@ -7,4 +7,7 @@
 4. Mysql 5.7
 
 ## 2. 참고사항
-* localhost:8080/chap~/~
+* 홈페이지 로그인 시
+~~~
+> localhost:8080/chap~/~
+~~~
