@@ -1,0 +1,55 @@
+05-Jan-2019 21:02:11.862 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.37
+05-Jan-2019 21:02:11.871 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 12 2018 12:07:02 UTC
+05-Jan-2019 21:02:11.871 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.37.0
+05-Jan-2019 21:02:11.872 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Jan-2019 21:02:11.872 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14
+05-Jan-2019 21:02:11.872 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+05-Jan-2019 21:02:11.872 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre
+05-Jan-2019 21:02:11.872 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+05-Jan-2019 21:02:11.872 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Jan-2019 21:02:11.873 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37
+05-Jan-2019 21:02:11.873 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37
+05-Jan-2019 21:02:11.874 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/conf/logging.properties
+05-Jan-2019 21:02:11.874 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Jan-2019 21:02:11.875 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Jan-2019 21:02:11.875 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Jan-2019 21:02:11.875 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-Jan-2019 21:02:11.875 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Jan-2019 21:02:11.875 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37
+05-Jan-2019 21:02:11.876 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37
+05-Jan-2019 21:02:11.876 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/temp
+05-Jan-2019 21:02:11.877 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/kimyosub/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05-Jan-2019 21:02:12.250 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Jan-2019 21:02:12.292 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Jan-2019 21:02:12.317 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Jan-2019 21:02:12.320 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Jan-2019 21:02:12.321 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1294 ms
+05-Jan-2019 21:02:12.472 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Jan-2019 21:02:12.473 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.37
+05-Jan-2019 21:02:12.504 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/docs]
+05-Jan-2019 21:02:13.444 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/docs] has finished in [939] ms
+05-Jan-2019 21:02:13.444 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/manager]
+05-Jan-2019 21:02:13.503 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/manager] has finished in [59] ms
+05-Jan-2019 21:02:13.504 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/web2.3]
+05-Jan-2019 21:02:13.553 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/web2.3] has finished in [48] ms
+05-Jan-2019 21:02:13.553 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/examples]
+05-Jan-2019 21:02:14.215 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/examples] has finished in [662] ms
+05-Jan-2019 21:02:14.216 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/ROOT]
+05-Jan-2019 21:02:14.247 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/ROOT] has finished in [31] ms
+05-Jan-2019 21:02:14.247 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/host-manager]
+05-Jan-2019 21:02:14.289 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/host-manager] has finished in [42] ms
+05-Jan-2019 21:02:14.294 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Jan-2019 21:02:14.324 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Jan-2019 21:02:14.328 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 2007 ms
+05-Jan-2019 21:05:04.407 정보 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/manager_2]
+05-Jan-2019 21:05:04.457 정보 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/manager_2] has finished in [50] ms
+05-Jan-2019 21:05:14.981 정보 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/manager_2]
+05-Jan-2019 21:12:45.755 정보 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/web2.3]
+05-Jan-2019 21:31:25.292 정보 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Jan-2019 21:31:25.295 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Jan-2019 21:31:25.313 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Jan-2019 21:31:25.320 정보 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Jan-2019 21:31:25.366 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Jan-2019 21:31:25.376 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Jan-2019 21:31:25.380 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Jan-2019 21:31:25.383 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

@@ -1,0 +1,151 @@
+10-Jan-2019 13:47:26.488 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.37
+10-Jan-2019 13:47:26.526 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 12 2018 12:07:02 UTC
+10-Jan-2019 13:47:26.526 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.37.0
+10-Jan-2019 13:47:26.527 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Jan-2019 13:47:26.527 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14
+10-Jan-2019 13:47:26.529 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+10-Jan-2019 13:47:26.530 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre
+10-Jan-2019 13:47:26.530 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+10-Jan-2019 13:47:26.532 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Jan-2019 13:47:26.534 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37
+10-Jan-2019 13:47:26.534 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37
+10-Jan-2019 13:47:26.536 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/conf/logging.properties
+10-Jan-2019 13:47:26.538 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Jan-2019 13:47:26.538 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Jan-2019 13:47:26.539 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Jan-2019 13:47:26.539 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Jan-2019 13:47:26.539 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-Jan-2019 13:47:26.539 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37
+10-Jan-2019 13:47:26.540 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37
+10-Jan-2019 13:47:26.540 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/temp
+10-Jan-2019 13:47:26.540 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/kimyosub/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Jan-2019 13:47:27.095 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Jan-2019 13:47:27.178 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Jan-2019 13:47:27.224 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Jan-2019 13:47:27.227 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Jan-2019 13:47:27.228 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1884 ms
+10-Jan-2019 13:47:27.286 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Jan-2019 13:47:27.286 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.37
+10-Jan-2019 13:47:27.309 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/docs]
+10-Jan-2019 13:47:28.026 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/docs] has finished in [716] ms
+10-Jan-2019 13:47:28.026 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/manager]
+10-Jan-2019 13:47:28.079 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/manager] has finished in [53] ms
+10-Jan-2019 13:47:28.080 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/examples]
+10-Jan-2019 13:47:28.839 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/examples] has finished in [759] ms
+10-Jan-2019 13:47:28.839 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/ROOT]
+10-Jan-2019 13:47:28.857 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/ROOT] has finished in [18] ms
+10-Jan-2019 13:47:28.857 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/host-manager]
+10-Jan-2019 13:47:28.881 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/host-manager] has finished in [24] ms
+10-Jan-2019 13:47:28.884 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Jan-2019 13:47:28.898 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Jan-2019 13:47:28.900 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 1671 ms
+10-Jan-2019 16:17:35.664 정보 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/JSP 2.3]
+10-Jan-2019 16:17:35.714 정보 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/JSP 2.3] has finished in [50] ms
+10-Jan-2019 16:17:46.221 정보 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/JSP 2.3]
+10-Jan-2019 16:18:06.264 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap04]
+10-Jan-2019 16:18:06.290 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap04] has finished in [26] ms
+10-Jan-2019 16:18:06.291 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap10_2]
+10-Jan-2019 16:18:06.315 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap10_2] has finished in [24] ms
+10-Jan-2019 16:18:06.315 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap03]
+10-Jan-2019 16:18:06.340 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap03] has finished in [24] ms
+10-Jan-2019 16:18:06.340 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap02]
+10-Jan-2019 16:18:06.363 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap02] has finished in [23] ms
+10-Jan-2019 16:18:06.363 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap05]
+10-Jan-2019 16:18:06.386 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap05] has finished in [23] ms
+10-Jan-2019 16:18:06.387 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/board]
+10-Jan-2019 16:18:06.864 정보 [localhost-startStop-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jan-2019 16:18:07.022 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/board] has finished in [635] ms
+10-Jan-2019 16:18:07.023 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/appB]
+10-Jan-2019 16:18:07.055 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/appB] has finished in [32] ms
+10-Jan-2019 16:18:07.056 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap16]
+10-Jan-2019 16:18:07.220 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap16] has finished in [164] ms
+10-Jan-2019 16:18:07.221 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap11]
+10-Jan-2019 16:18:07.586 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap11] has finished in [366] ms
+10-Jan-2019 16:18:07.588 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap18]
+10-Jan-2019 16:18:07.748 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap18] has finished in [160] ms
+10-Jan-2019 16:18:07.748 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap20]
+10-Jan-2019 16:18:08.070 정보 [localhost-startStop-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jan-2019 16:18:08.187 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap20] has finished in [438] ms
+10-Jan-2019 16:18:08.187 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap19]
+10-Jan-2019 16:18:08.251 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap19] has finished in [64] ms
+10-Jan-2019 16:18:08.251 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap10]
+10-Jan-2019 16:18:08.330 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap10] has finished in [79] ms
+10-Jan-2019 16:18:08.331 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap17]
+10-Jan-2019 16:18:09.058 정보 [localhost-startStop-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jan-2019 16:18:09.339 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap17] has finished in [1,007] ms
+10-Jan-2019 16:18:09.339 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap09]
+10-Jan-2019 16:18:09.447 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap09] has finished in [108] ms
+10-Jan-2019 16:18:09.448 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap07]
+10-Jan-2019 16:18:09.523 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap07] has finished in [75] ms
+10-Jan-2019 16:18:09.523 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap06]
+10-Jan-2019 16:18:09.553 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap06] has finished in [30] ms
+10-Jan-2019 16:18:09.554 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap08]
+10-Jan-2019 16:18:09.601 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap08] has finished in [46] ms
+10-Jan-2019 16:18:09.601 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap12]
+10-Jan-2019 16:18:09.945 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap12] has finished in [343] ms
+10-Jan-2019 16:18:09.945 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap15]
+10-Jan-2019 16:18:10.619 정보 [localhost-startStop-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jan-2019 16:18:10.814 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap15] has finished in [869] ms
+10-Jan-2019 16:18:10.815 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap14]
+10-Jan-2019 16:18:11.190 정보 [localhost-startStop-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jan-2019 16:18:11.381 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap14] has finished in [566] ms
+10-Jan-2019 16:18:11.455 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap13]
+10-Jan-2019 16:18:11.512 정보 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kimyosub/eclipse-workspace/JSP/apache-tomcat-8.5.37/webapps/chap13] has finished in [57] ms
+10-Jan-2019 22:12:58.412 정보 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10-Jan-2019 22:12:58.418 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Jan-2019 22:12:58.428 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Jan-2019 22:12:58.435 정보 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Jan-2019 22:12:58.522 경고 [localhost-startStop-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [chap20] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jan-2019 22:12:58.524 경고 [localhost-startStop-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [chap20] registered the JDBC driver [org.apache.commons.dbcp2.PoolingDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jan-2019 22:12:58.525 경고 [localhost-startStop-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [chap20] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+10-Jan-2019 22:12:58.526 경고 [localhost-startStop-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [chap20] appears to have started a thread named [commons-pool-EvictionTimer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+10-Jan-2019 22:12:58.532 경고 [localhost-startStop-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [board] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jan-2019 22:12:58.532 경고 [localhost-startStop-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [board] registered the JDBC driver [org.apache.commons.dbcp2.PoolingDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jan-2019 22:12:58.533 경고 [localhost-startStop-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [board] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+10-Jan-2019 22:12:58.534 경고 [localhost-startStop-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [board] appears to have started a thread named [commons-pool-EvictionTimer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+10-Jan-2019 22:12:58.597 경고 [localhost-startStop-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [chap17] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jan-2019 22:12:58.597 경고 [localhost-startStop-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [chap17] registered the JDBC driver [org.apache.commons.dbcp2.PoolingDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jan-2019 22:12:58.597 경고 [localhost-startStop-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [chap17] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+10-Jan-2019 22:12:58.599 경고 [localhost-startStop-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [chap17] appears to have started a thread named [commons-pool-EvictionTimer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+10-Jan-2019 22:12:58.658 경고 [localhost-startStop-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [chap15] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jan-2019 22:12:58.658 경고 [localhost-startStop-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [chap15] registered the JDBC driver [org.apache.commons.dbcp2.PoolingDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jan-2019 22:12:58.659 경고 [localhost-startStop-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [chap15] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+10-Jan-2019 22:12:58.660 경고 [localhost-startStop-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [chap15] appears to have started a thread named [commons-pool-EvictionTimer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+10-Jan-2019 22:12:58.665 경고 [localhost-startStop-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [chap14] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jan-2019 22:12:58.666 경고 [localhost-startStop-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [chap14] registered the JDBC driver [org.apache.commons.dbcp2.PoolingDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jan-2019 22:12:58.666 경고 [localhost-startStop-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [chap14] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+10-Jan-2019 22:12:58.667 경고 [localhost-startStop-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [chap14] appears to have started a thread named [commons-pool-EvictionTimer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+10-Jan-2019 22:12:58.678 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Jan-2019 22:12:58.685 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Jan-2019 22:12:58.691 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Jan-2019 22:12:58.692 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
