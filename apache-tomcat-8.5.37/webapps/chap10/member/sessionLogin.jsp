@@ -9,11 +9,9 @@
 <html>
 <head><title>로그인성공</title></head>
 <body>
-로그인에 성공했습니다.<br>
 
-<form action="sessionLogout.jsp" method="post">
-	<input type="submit" value="logout">
-</form>
+로그인에 성공했습니다.
+
 </body>
 </html>
 <%

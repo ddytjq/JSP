@@ -2,7 +2,6 @@
 <%@ page session = "true" %>
 <%@ page import = "java.util.Date" %>
 <%@ page import = "java.text.SimpleDateFormat" %>
-
 <%
 	Date time = new Date();
 	SimpleDateFormat formatter = 

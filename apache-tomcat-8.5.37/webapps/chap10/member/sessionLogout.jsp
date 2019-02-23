@@ -6,7 +6,7 @@
 <head><title>로그아웃</title></head>
 <body>
 
-<script>window.alert("로그아웃 했습니다.")</script>
-<script>location.href="sessionLoginForm.jsp"</script>
+로그아웃하였습니다.
+
 </body>
 </html>
