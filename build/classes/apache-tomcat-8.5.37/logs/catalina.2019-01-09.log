@@ -1,8 +1,0 @@
-09-Jan-2019 22:34:27.453 정보 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
-09-Jan-2019 22:34:27.481 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
-09-Jan-2019 22:34:27.506 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
-09-Jan-2019 22:34:27.513 정보 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
-09-Jan-2019 22:34:27.646 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
-09-Jan-2019 22:34:27.653 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-09-Jan-2019 22:34:27.657 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
-09-Jan-2019 22:34:27.658 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
