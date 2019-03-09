@@ -6,7 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2d7470f-c75b-420f-91ed-788807e34b39" name="Default Changelist" comment="" />
+    <list default="true" id="c2d7470f-c75b-420f-91ed-788807e34b39" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/project/board/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/project/board/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/board/build/classes/article/dao/ArticleContentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/board/build/classes/article/dao/ArticleContentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/board/build/classes/article/dao/ArticleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/board/build/classes/article/dao/ArticleDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/board/build/classes/article/service/ListArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/board/build/classes/article/service/ListArticleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/board/build/classes/article/service/ReadArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/board/build/classes/article/service/ReadArticleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/board/build/classes/auth/service/LoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/board/build/classes/auth/service/LoginService.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,15 +27,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/examples/web2.3/chap03.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/board/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -40,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/board/dbconnTest.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -49,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/board/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+            <state relative-caret-position="425">
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -170,7 +168,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,6 +184,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,11 +301,12 @@
       <workItem from="1550814866340" duration="722000" />
       <workItem from="1550834813206" duration="1023000" />
       <workItem from="1550841664476" duration="233000" />
+      <workItem from="1551866304663" duration="10000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45789000" />
+    <option name="totallyTimeSpent" value="45799000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -320,8 +319,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1812" y="-102" width="1464" height="937" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19690576" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1997187" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -696,15 +696,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/board/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        <state relative-caret-position="425">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apache-tomcat-8.5.37/webapps/board/dbconnTest.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
